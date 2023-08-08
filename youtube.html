@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/video.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-bttn"><img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">
+                    Search
+                </div>
+            </button>
+            <button class="voice-search-bttn"><img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">
+                    Search with your voice
+                </div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">
+                    Create
+                </div>
+            </div>
+            <!-- <div class="yt-app-icon-container">
+                <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">
+                    YouTube apps
+                </div>
+            </div> -->
+            
+            <div class="notification-div">
+                <img class="notification-icon" src="icons/notifications.svg" alt="">
+                <div class="notification-count">
+                    5
+                </div>
+                <div class="tooltip">
+                    Notifications
+                </div>
+            </div>
+            
+            <img class="my-channel-icon" src="profile-pic/mychanel-img.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- junior sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-row">
+            <img src="sidebar-icon/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-row">
+            <img src="sidebar-icon/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-row">
+            <img src="sidebar-icon/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-row">
+            <img src="sidebar-icon/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-row">
+            <img src="sidebar-icon/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-row">
+            <img src="sidebar-icon/library.svg" alt="">
+            <div>Library</div>
+        </div>
+        
+    </div>
+    
+    <!-- senior sidebar -->
+    <div class="sidebar2">
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-row2">
+            <img src="sidebar-icon/library.svg" alt="">
+            <div>Library</div>
+        </div>
+        
+    </div>
+
+    <div class="video-grid">
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=q_k8fVNzbGU">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-1.webp" alt="">
+                </a>
+                <div class="timestamp">46:49</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-1.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Abstract: The Art of Design | Christoph Niemann: Illustration | FULL EPISODE | Netflix</p>
+                    <p class="channel-name">Netflix</p>
+                    <p class="video-stats">1.3M views  &#8226; 3 years ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=60Myw4fYyBM">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-2.webp" alt="">
+                </a>
+                
+                <div class="timestamp">37:54</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Why 5 Of The World's Priciest Salts And Spices Are So Expensive | So Expensive Food</p>
+                    <p class="channel-name">Insider Business</p>
+                    <p class="video-stats">4.5M views  &#8226; 1 year ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=siX1eXKXMw0">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-3.webp" alt="">
+                </a>
+                
+                <div class="timestamp">6:41</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-3.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Cartoon head for Customer | Adobe illustrator</p>
+                    <p class="channel-name">Hamid Xurmy</p>
+                    <p class="video-stats">132 views  &#8226; 1 day ago</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-4.webp" alt="">
+                </a>
+                
+                <div class="timestamp">14:20</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-4.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="channel-name">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views  &#8226; 6 months ago</p>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                    <img class = "thumbnail-img"src="thumbnail/thumbnail-5.webp" alt="">
+                </a>
+                
+                <div class="timestamp">8:22</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-5.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="channel-name">Markiplier</p>
+                    <p class="video-stats">19M views  &#8226; 4 years ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                    <img class = "thumbnail-img"src="thumbnail/thumbnail-6.webp" alt="">
+                </a>
+                
+                <div class="timestamp">9:13</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-6.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                    <p class="channel-name">SSSniperWolf</p>
+                    <p class="video-stats">12M views  &#8226; 1 year ago</p>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                    <img class = "thumbnail-img"src="thumbnail/thumbnail-7.webp" alt="">
+                </a>
+                
+                <div class="timestamp">22:09</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-7.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                    <p class="channel-name">Veritasium</p>
+                    <p class="video-stats">18M views  &#8226; 4 months ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=agd9nts9ALQ">
+                    <img class = "thumbnail-img"src="thumbnail/thumbnail-8.webp" alt="">
+                </a>
+                
+                <div class="timestamp">35:09</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-8.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">If we ever stopped talking send me a song - Last Tape</p>
+                    <p class="channel-name">Last Tape</p>
+                    <p class="video-stats">1.5M views  &#8226; 2 years ago</p>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                    <img class = "thumbnail-img"src="thumbnail/thumbnail-9.webp" alt="">
+                </a>
+                
+                <div class="timestamp">19:59</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-9.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+                    <p class="channel-name">MrBeast</p>
+                    <p class="video-stats">141M views  &#8226; 1 years ago</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=TmcEmsyYKXE">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-10.webp" alt="">
+                </a>
+                
+                <div class="timestamp">1:28:23</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-10.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">JavaScript Full Course (2023) - Beginner to Pro - Part 2 Lesson 13</p>
+                    <p class="channel-name">SuperSimpleDev</p>
+                    <p class="video-stats">126K views  &#8226; 2 months ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=EqkeD76od4Q">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-11.webp" alt="">
+                </a>
+                <div class="timestamp">10:58</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-11.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Types of Independent Animation projects you should consider</p>
+                    <p class="channel-name">Toniko Pantoja</p>
+                    <p class="video-stats">10K views  &#8226; 8 days ago</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=FLAm7Hqm-58">
+                    <img class = "thumbnail-img" src="thumbnail/thumbnail-12.webp" alt="">
+                </a>
+                <div class="timestamp">58:04</div>
+            </div>
+            <div class="video-description">
+                <div class="channel-profile">
+                    <img class="profile-img" src="profile-pic/channel-12.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Derivative for Beginners - Basic Introduction</p>
+                    <p class="channel-name">The Organic Chemistry Tutor</p>
+                    <p class="video-stats">780K views  &#8226; 3 years ago</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

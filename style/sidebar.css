@@ -1,0 +1,95 @@
+.sidebar,
+.sidebar2{
+    background-color: white;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    padding-top: 5px;
+    z-index: 200;
+    
+}
+.sidebar{
+    width: 70px;
+    padding:  7px 5px;
+}
+.sidebar2{
+    width: 220px;
+    padding: 13px 10px;
+}
+/* .sidebar2{
+    background-color: white;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    padding-top: 5px;
+    z-index: 200;
+    
+} */
+/* try building a different sidebar instead of modifying the old one */
+@media(min-width:1300px){
+    .sidebar{
+        display: none;
+    }
+    body{
+        padding-left: 230px
+    }
+}
+@media(min-width:801px) and (max-width:1299px){
+    .sidebar2{
+        display: none;
+    }
+    body{
+        padding-left: 70px;
+    }
+}
+@media(max-width:800px){
+    .sidebar,
+    .sidebar2{
+        display: none;
+    }
+    body{
+        padding-left: 0px;
+    }
+    
+}
+
+.sidebar-row,
+.sidebar-row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.sidebar-row{
+    flex-direction: column;
+    height: 73px;
+}
+.sidebar-row2{
+    flex-direction: row;
+    height: 40px;
+}
+.sidebar-row2 img{
+    width:55px;
+    height: 24px;
+    margin-right: 8px;
+}
+.sidebar-row2 div{
+    flex: 1;
+    font-size: 14px;
+}
+.sidebar-row:hover,
+.sidebar-row2:hover{
+    background-color: rgb(239, 238, 238);
+    cursor: pointer;
+}
+.sidebar-row img{
+    height: 24px;
+    margin-bottom: 6px;
+}
+.sidebar-row div{
+    font-size: 10px;
+}
